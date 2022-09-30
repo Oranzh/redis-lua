@@ -13,5 +13,7 @@ if (next(keys) ~= nil) then
             redis.call('incr', key)
         end
     end
+    return redis.call('mget', unpack(keys))
 end
-return redis.call('mget', unpack(keys))
+return 'No keys found'
+
