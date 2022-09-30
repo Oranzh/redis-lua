@@ -67,7 +67,8 @@
     --ldb参数是调试模式, 会打印出脚本执行的每一步
 
 执行结果
-   ![ldb_result](https://github.com/Oranzh/photos/blob/main/image.png)
+![ldb](https://github.com/Oranzh/photos/blob/main/image.png?raw=true)
+   
 
     
     
